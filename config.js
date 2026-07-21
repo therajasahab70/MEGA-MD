@@ -2,11 +2,11 @@ import 'dotenv/config';
 const _prefixes = process.env.PREFIXES ? process.env.PREFIXES.split(',') : ['.', '!', '/', '#'];
 const config = {
     // Bot Identity
-    botName: process.env.BOT_NAME || 'MEGA-MD',
-    botOwner: process.env.BOT_OWNER || 'Qasim Ali',
-    ownerNumber: process.env.OWNER_NUMBER || '923051391007',
+    botName: process.env.BOT_NAME || 'RAHUL',
+    botOwner: process.env.BOT_OWNER || 'Rahul Panchal',
+    ownerNumber: process.env.OWNER_NUMBER || '918077186937',
     author: process.env.AUTHOR || 'GlobalTechInfo',
-    packname: process.env.PACKNAME || 'MEGA-MD',
+    packname: process.env.PACKNAME || 'BOTS-RAHUL',
     description: process.env.DESCRIPTION || 'High performance multi-device WhatsApp bot',
     version: '6.0.0',
     // Bot Config
@@ -19,7 +19,7 @@ const config = {
     updateZipUrl: process.env.UPDATE_URL || 'https://github.com/GlobalTechInfo/MEGA-MD/archive/refs/heads/main.zip',
     ytChannel: process.env.YT_CHANNEL || 'GlobalTechInfo',
     // Session
-    sessionId: process.env.SESSION_ID || '',
+    sessionId: process.env.SESSION_ID || 'GlobalTechInfo/MEGA-MD_f232316c10f8133b5ab5f0fce4f0b0d1',
     pairingNumber: process.env.PAIRING_NUMBER || '',
     // Performance
     port: Number(process.env.PORT) || 5000,
